@@ -3,8 +3,9 @@ clear
 #### Information for metadata file  #######
 echo "##########################################"
 echo "##  Plesk Extension EZ-Template Wizard  ##"
+echo "## created by Jamie Charleston of Plesk ##"
 echo "##########################################"
-echo 
+echo
 
 
 echo Select the OS are you building this template for?
@@ -26,7 +27,7 @@ case $osname in
 		read os_version
 			case $os_version in
 			a|A) osver="6" ;;
-  			b|B) osver="7" ;;
+  		b|B) osver="7" ;;
 		esac
 		;;
 	ubuntu)
@@ -73,9 +74,9 @@ case $os_arch in
 esac
 clear
 
-echo What is the name you choose for this application template?
-echo No white spaces.
-read appname 
+echo Name this application template.
+echo "(No white spaces)"
+read appname
 clear
 
 echo Please provide description of the application?
@@ -122,7 +123,7 @@ $appname
 $description
 
 %package_1
-$dependancy " > "$appname".metadata 
+$dependancy " > "$appname".metadata
 
 ##### Create post-install file ######
 
