@@ -58,7 +58,7 @@ case $osname in
                         b|B) osver="7" ;;
                 esac
 
-osverion=osver
+osversion=osver
 osver=osversion
                 ;;
 
@@ -121,6 +121,10 @@ $appname
 
 %description
 $description
+
+%packages
+
+%packages_0
 
 %packages_1
 $dependancy " > "$appname".metadata
