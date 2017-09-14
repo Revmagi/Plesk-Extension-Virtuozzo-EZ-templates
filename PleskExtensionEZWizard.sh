@@ -122,7 +122,7 @@ $appname
 %description
 $description
 
-%package_1
+%packages_1
 $dependancy " > "$appname".metadata
 
 ##### Create post-install file ######
