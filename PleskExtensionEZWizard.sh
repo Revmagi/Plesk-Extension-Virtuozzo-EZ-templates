@@ -9,7 +9,7 @@ echo
 
 
 echo Select the OS are you building this template for?
-echo "A) CentOS B) Ubuntu C) Debian D) RHEL"
+echo "A) CentOS B) Ubuntu C) Debian D) RHEL "
 read os_name
 case $os_name in
    a|A) osname="centos" ;;
@@ -23,29 +23,30 @@ echo Time to choose an OS version
 case $osname in
 	centos)
 		echo Which Version of CentOS
-		echo "A)6 B) 7"
-		read os_version
-			case $os_version in
-			a|A) osver="6" ;;
-  		b|B) osver="7" ;;
-		esac
-		;;
-	ubuntu)
-		echo Which Version of Ubuntu
-                echo "A)14 B) 16"
-                read os_version
-                        case $os_version in
-                        a|A) osver="14" ;;
-                        b|B) osver="16" ;;
-                        esac
+		                  echo "A)6 B) 7"
+		                  read os_version
+			                case $os_version in
+			                a|A) osver="6" ;;
+  		                b|B) osver="7" ;;
+		                  esac
 		;;
 	debian)
-                echo Which Version of Debian
-  		echo "A)14 B) 16"
+		echo Which Version of Debian
+                        echo "A)7 B) 8"
+                        read os_version
+                        case $os_version in
+                        a|A) osver="7" ;;
+                        b|B) osver="8" ;;
+                        esac
+		;;
+	ubuntu)
+                echo Which Version of Ubuntu
+  		echo "A)12.04 B) 14.04 C) 16.04"
                 read os_version
                         case $os_version in
-                        a|A) osver="14" ;;
-                        b|B) osver="16" ;;
+                        a|A) osver="12.04" ;;
+                        b|B) osver="14.04" ;;
+                        c|C) osver="16.04" ;;
                 esac
 
 		;;
