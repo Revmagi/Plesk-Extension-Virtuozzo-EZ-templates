@@ -59,8 +59,6 @@ case $osname in
                         b|B) osver="7" ;;
                 esac
 
-osversion=osver
-osver=osversion
                 ;;
 
 esac
