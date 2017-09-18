@@ -23,7 +23,7 @@ echo Time to choose an OS version
 case $osname in
 	centos)
 		echo Which Version of CentOS
-		                  echo "A)6 B) 7"
+		                  echo "A)6 B)7"
 		                  read os_version
 			                case $os_version in
 			                a|A) osver="6" ;;
@@ -32,7 +32,7 @@ case $osname in
 		;;
 	debian)
 		echo Which Version of Debian
-                        echo "A)7 B) 8"
+                        echo "A)7 B)8"
                         read os_version
                         case $os_version in
                         a|A) osver="7" ;;
@@ -41,7 +41,7 @@ case $osname in
 		;;
 	ubuntu)
                 echo Which Version of Ubuntu
-  		echo "A)12.04 B) 14.04 C) 16.04"
+  		echo "A)12.04 B)14.04 C)16.04"
                 read os_version
                         case $os_version in
                         a|A) osver="12.04" ;;
@@ -52,7 +52,7 @@ case $osname in
 		;;
 	rhel)
                 echo Which Version of RHEL
-                echo "A)6 B) 7"
+                echo "A)6 B)7"
                 read os_version
                         case $os_version in
                         a|A) osver="6" ;;
