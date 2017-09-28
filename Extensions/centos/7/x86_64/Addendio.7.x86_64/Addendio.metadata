@@ -1,0 +1,21 @@
+%osname
+centos
+
+%osver
+7
+
+%osarch
+x86_64
+
+%appname
+Addendio
+
+%description
+Addendio for WordPress provides a super fast search for finding and installing WordPress plugins & themes.
+
+%packages
+
+%packages_0
+
+%packages_1
+pp17 

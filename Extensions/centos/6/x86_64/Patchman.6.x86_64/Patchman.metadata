@@ -1,0 +1,21 @@
+%osname
+centos
+
+%osver
+6
+
+%osarch
+x86_64
+
+%appname
+Patchman
+
+%description
+Patchman automatically and safely patches vulnerabilities in CMSs like WordPress, Joomla and Drupal. On top of that, it cleans up malware. With this plugin you you can install and manage Patchman from your Plesk panel.
+
+%packages
+
+%packages_0
+
+%packages_1
+pp17 

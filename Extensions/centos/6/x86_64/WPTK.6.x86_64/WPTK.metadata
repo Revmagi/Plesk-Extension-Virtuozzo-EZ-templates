@@ -1,0 +1,21 @@
+%osname
+centos
+
+%osver
+6
+
+%osarch
+x86_64
+
+%appname
+WPTK
+
+%description
+WordPress Toolkit allows server administrators, resellers and customers to manage their WordPress instances, enabling a variety of development workflows for WordPress admins of all skill levels, from beginners to pros.
+
+%packages
+
+%packages_0
+
+%packages_1
+pp17 

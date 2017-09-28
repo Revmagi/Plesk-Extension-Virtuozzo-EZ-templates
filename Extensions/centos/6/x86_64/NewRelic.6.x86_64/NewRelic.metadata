@@ -1,0 +1,21 @@
+%osname
+centos
+
+%osver
+6
+
+%osarch
+x86_64
+
+%appname
+NewRelic
+
+%description
+New Relic is a software analytics tool suite used by developers, ops, and software companies to understand how applications are performing in development and production. With New Relic, you gain access to analytics tools to measure and monitor performance bottlenecks, throughput, network graph, server health and many more – all almost in real-time.
+
+%packages
+
+%packages_0
+
+%packages_1
+pp17 
