@@ -93,11 +93,11 @@ read extension_url
 clear
 
 echo making new directory $appname
-mkdir $appname
+mkdir "$appname"."$osarch"
 echo
 
 echo changing to working directory $appname
-cd $appname
+cd "$appname"."$osarch"
 echo
 
 echo creating "$appname".metadata file
